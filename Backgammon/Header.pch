@@ -1,0 +1,28 @@
+//
+//  Header.pch
+//  Backgammon
+//
+//  Created by aybek can kaya on 15/06/15.
+//  Copyright (c) 2015 aybek can kaya. All rights reserved.
+//
+
+#ifndef Backgammon_Header_pch
+#define Backgammon_Header_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "NSObject+KJSerializer.h"
+#import "UndoManager.h"
+
+#define IS_TESTING_FRAME_LOCATIONING 0
+#define IS_TESTING_COLLECTING 0
+#define IS_TESTING_GAME_END 0
+#define IS_DEBUG_MODE 0
+
+#define DEVICE    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
+#define IPHONE UIUserInterfaceIdiomPhone
+
+
+#endif
